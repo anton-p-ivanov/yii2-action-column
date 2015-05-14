@@ -1,0 +1,30 @@
+{
+	"name": "yapi68/yii2-action-column",
+	"description": "Action column with dropdown menu for Yii 2.x GridView widget",
+	"keywords": ["yii", "grid", "table", "actions", "column"],
+	"homepage": "https://github.com/yapi68/yii2-action-column#readme",
+	"type": "widget",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Anton Ivanov",
+			"email": "yapi68@yandex.ru",
+			"homepage": "http://www.yapi68.ru/",
+			"role": "Creator"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/yapi68/yii2-action-column/issues",
+		"source": "https://github.com/yapi68/yii2-action-column"
+	},
+	"require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.4",
+        "yiisoft/yii2-bootstrap": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"yapi68\\ActionColumn\\": ""
+		}
+	}
+}
