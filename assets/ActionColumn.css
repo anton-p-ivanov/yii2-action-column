@@ -1,0 +1,8 @@
+.action-column {
+    cursor: pointer;
+}
+
+.action-column:hover .fa-bars,
+.action-column.open .fa-bars {
+    color: #333;
+}
